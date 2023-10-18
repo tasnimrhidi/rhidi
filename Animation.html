@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+</head>
+<style>
+    div{
+        width: 100px;
+        height: 100px;
+        background-color: gold;
+        animation-name: exp;
+        position: relative;
+        animation-duration: 5s;
+        animation-iteration-count: 1;
+    }
+    @keyframes exp{
+        0%   {background-color:rgb(47, 0, 255); left:0px; top:0px;}
+        25%  {background-color:red; left:300px; top:0px;}
+        50% {background-color: green; top:300px; left: 300px;}
+        75% {background-color: yellow; left: 0px; top: 300px;}
+        100% {left: 0px;top: 0px;}
+
+    }
+</style>    
+<body>
+    <div>
+
+    </div>
+</body>
+</html>
